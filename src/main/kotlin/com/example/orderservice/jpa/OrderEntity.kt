@@ -12,7 +12,7 @@ class OrderEntity(
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var id: Long,
 
-    @Column(nullable = false, length = 120, unique = true)
+    @Column(nullable = false, length = 120)
     var productId: String,
     @Column(nullable = false)
     var qty: Int,
@@ -24,7 +24,7 @@ class OrderEntity(
     @Column(nullable = false)
     var userId: String,
 
-    @Column(nullable = false)
+    @Column(nullable = false, length = 120)
     var orderId: String,
 
     @Column(nullable = false, updatable = false, insertable = false)

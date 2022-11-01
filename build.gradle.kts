@@ -35,6 +35,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
+    implementation("org.mariadb.jdbc:mariadb-java-client:3.0.8")
+    implementation("org.springframework.kafka:spring-kafka")
     runtimeOnly("com.h2database:h2:1.3.176")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     kapt("org.springframework.boot:spring-boot-configuration-processor")
