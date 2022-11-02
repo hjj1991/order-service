@@ -34,6 +34,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
+    implementation("org.springframework.cloud:spring-cloud-starter-sleuth")
+    implementation("org.springframework.cloud:spring-cloud-starter-zipkin:2.2.8.RELEASE")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     implementation("org.mariadb.jdbc:mariadb-java-client:3.0.8")
     implementation("org.springframework.kafka:spring-kafka")
